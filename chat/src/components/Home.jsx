@@ -62,7 +62,7 @@ export default function Home() {
             </nav>
           </div>
           {/* Request Demo Button */}
-          <Button className="bg-black text-white border border-white hover:bg-rose-600">
+          <Button className="bg-black text-white border border-white hover:bg-red-900 hidden sm:inline-block">
             Request Demo
           </Button>
         </motion.header>
