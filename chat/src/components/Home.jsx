@@ -20,10 +20,10 @@ export default function Home() {
         {/* Header Section with Animation */}
         <motion.header
           className="flex items-center justify-between"
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1}}
           viewport={{ once: true, amount: 0.1 }}
-          transition={{ duration: 1.2, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           <div className="flex items-center gap-12">
             {/* Logo */}
@@ -72,10 +72,10 @@ export default function Home() {
           {/* Left Section */}
           <motion.div
             className="space-y-6"
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.1 }}
-            transition={{ duration: 1.2, ease: "easeInOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
           >
             <div className="text-sm text-rose-600 tracking-wider">ARTICLE</div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
@@ -108,10 +108,10 @@ export default function Home() {
           {/* Right Section */}
           <motion.div
             className="relative mt-[-63%] ml-20 md:mt-[0%] md:ml-0"
-            initial={{ opacity: 0, y: -20 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true, amount: 0.1 }}
-            transition={{ duration: 1.2, ease: "easeInOut" }}
+            transition={{ duration: 0.8, ease: "easeInOut" }}
           >
             {/* Decorative Background */}
             <div className="absolute inset-0 bg-rose-600 opacity-20 blur-3xl"></div>
